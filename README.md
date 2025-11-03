@@ -1,8 +1,72 @@
-# Conteúdo do 2° Workshop das Divas Digitais
-Este repositório contém a interface web desenvolvida como projeto piloto para as participantes do workshop, com o objetivo de servir de base para a atividade prática de introdução a HTML, CSS e JavaScript. O exercício consiste em REPRODUZIR a estrutura de um site, o qual contará com 2 páginas (home e sobre mim) e cada uma incluirá: uma header, duas seções (texto e imagem) e um footer.
+# 2º Workshop das Divas Digitais: Projeto Piloto
 
-Os assuntos abordados em relação a HTML (ministrados pela instrutora Érika) incluem o uso de estruturas padrão como header, main e footer, além de divs para organizar blocos de conteúdo. Também são utilizados integração de arquivos externos, como CSS e JavaScript, elementos de navegação (nav) com links (a), imagens (img), títulos (h1, h2) e parágrafos (p) para estruturar o texto de forma hierárquica. 
+> **Base de Código para a Atividade Prática de Introdução ao Desenvolvimento Web (HTML, CSS, JS)**
+---
 
-Para assuntos relativos a CSS (ministrados pela instrutora Cecília) incluem a aplicação de reset de margens e paddings, definição de tipografia, cores de fundo e cores de texto para o body, além de estilização de header e footer, links de navegação com efeitos de hover, organização de seções com flexbox, definição de tamanhos de imagens, espaçamentos, cores, tamanhos de fonte e transições. 
+## Visão Geral do Repositório
 
-Já para os assuntos referentes a JavaScript (ministrados pela instrutora Lívia), eles incluem a manipulação de elementos da página para criar efeitos visuais interativos, como o efeito de digitação utilizando funções e setTimeout. Também são aplicados eventos para realizar transições de imagem ao passar o mouse.
+Este repositório serve como o **projeto piloto** (ou código base) fornecido às participantes do 2º Workshop das Divas Digitais. Ele é o ponto de partida para a atividade prática, cujo objetivo é consolidar o aprendizado dos fundamentos de HTML, CSS e JavaScript através da **REPRODUÇÃO** da estrutura e estilização de um site simples.
+
+O projeto é didático e focado na prática, permitindo que as participantes vejam os conceitos se unindo para criar uma interface funcional.
+
+### Estrutura do Site a ser Reproduzido
+
+O site piloto consiste em duas páginas essenciais:
+
+1.  **Home (`index.html`):** Página inicial com a navegação principal.
+2.  **Sobre Mim (`sobre.html`):** Uma página secundária focada no perfil.
+
+Cada página inclui uma estrutura padrão para praticar a arquitetura web:
+
+* `Header` (cabeçalho)
+* `Nav` (barra de navegação)
+* Duas Seções de Conteúdo (combinação de texto e imagem)
+* `Footer` (rodapé)
+
+---
+
+## Conceitos Fundamentais Abordados
+
+O projeto integra as três pilhas básicas do desenvolvimento web, cada uma ministrada por uma instrutora, garantindo uma prática completa:
+
+### Markup e Estrutura (HTML - Instrutora Érika)
+
+O foco do HTML está na correta **arquitetura do conteúdo** e na **hierarquia semântica**:
+
+* **Estruturas Padrão:** Uso de `<header>`, `<main>`, `<footer>` para definir o *layout* básico do documento.
+* **Organização de Blocos:** Utilização de `<div>` e `<section>` para agrupar e organizar o conteúdo.
+* **Links e Navegação:** Inclusão de `<nav>` e links (`<a>`) para conectar as páginas.
+* **Elementos Básicos:** Uso de `<h1>`, `<h2>`, `<p>` e `<img>` para estruturar o texto e mídia.
+* **Integração:** Conexão correta dos arquivos CSS e JavaScript externos.
+
+### Estilização e Design (CSS - Instrutora Cecília)
+
+O foco do CSS está em transformar a estrutura em uma interface visualmente agradável e organizada:
+
+* **Reset Inicial:** Aplicação de *reset* básico para margens e *paddings*.
+* **Tipografia e Cores:** Definição de fontes, cores de fundo (`background`) e de texto (`color`) globais.
+* **Layout Flexível:** Uso de **Flexbox** para organizar e alinhar as seções (texto e imagem).
+* **Design Interativo:** Estilização de *links* de navegação e aplicação de efeitos de **`:hover`** e **`transition`**.
+* **Dimensionamento:** Definição de tamanhos (`width`, `height`) e espaçamentos (`padding`, `margin`) precisos para os elementos.
+
+### Interatividade e Comportamento (JavaScript - Instrutora Lívia)
+
+O foco do JavaScript está em adicionar dinamismo e interatividade ao projeto:
+
+* **Manipulação de Elementos (DOM):** Modificação do conteúdo e estilo da página via código.
+* **Funções de Tempo:** Uso de `setTimeout` para criar efeitos de tempo controlado.
+* **Efeitos Visuais:** Implementação do **efeito de digitação** (`typing effect`) em textos.
+* **Tratamento de Eventos:** Aplicação de eventos de mouse (`onmouseover`/`onmouseout`) para acionar **transições de imagem**.
+
+---
+
+## Como Utilizar (Para as Participantes)
+
+O exercício principal é a reprodução do site.
+
+1.  **Clone o Repositório:** Obtenha os arquivos base (vazios ou com estrutura mínima).
+    ```bash
+    git clone [LINK_DO_SEU_REPOSITORIO]
+    ```
+2.  **Abra o Projeto:** Utilize um editor de código (VS Code recomendado).
+3.  **Siga as Instruções:** Consulte o material do workshop e comece a construir a interface do zero, utilizando os arquivos fornecidos como referência.
