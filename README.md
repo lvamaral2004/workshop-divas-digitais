@@ -65,8 +65,6 @@ O foco do JavaScript está em adicionar dinamismo e interatividade ao projeto:
 O exercício principal é a reprodução do site.
 
 1.  **Clone o Repositório:** Obtenha os arquivos base (vazios ou com estrutura mínima).
-    ```bash
     git clone (https://github.com/lvamaral2004/workshop-divas-digitais.git)
-    `
 2.  **Abra o Projeto:** Utilize um editor de código (VS Code recomendado).
 3.  **Siga as Instruções:** Consulte o material do workshop e comece a construir a interface do zero, utilizando os arquivos fornecidos como referência.
